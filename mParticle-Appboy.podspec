@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
     s.tvos.source_files      = 'mParticle-Appboy/*.{h,m,mm}'
     s.tvos.dependency 'mParticle-Apple-SDK/mParticle', '~> 7.10.0'
     s.tvos.frameworks = 'SystemConfiguration'
-    s.tvos.dependency 'Appboy-tvOS-SDK', '~> 3.16.0'
+    s.tvos.dependency 'Appboy-tvOS-SDK', '~> 3.0.0'
     
     s.tvos.pod_target_xcconfig = {
         'LIBRARY_SEARCH_PATHS' => '$(inherited) $(PODS_ROOT)/Appboy-tvOS-SDK/**'
